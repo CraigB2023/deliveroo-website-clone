@@ -1,38 +1,82 @@
-.App {
-  text-align: center;
+
+/*If you want to override any default properties in Bootstrap you have to make the properties as important.*/
+
+/* Buttons in top navbar */
+
+.list-group-item {
+  padding-left:5px !important;
+  padding-right:5px !important;
+  padding-top:0px !important;
+  padding-bottom:0px !important;
+  border-color: #ffffff !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.list-group {
+  --bs-list-group-color: #fffff !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav-right-col {
+width:100%;    
+display: flex;
+flex-direction: column;
+align-items: flex-end;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.btn-box {
+  width:710px !important;
+  background-color:red;
 }
 
-.App-link {
-  color: #61dafb;
+.btn-primary, .btn-primary:active, .btn-primary:visited {
+    color: black !important;
+    background-color: white !important;
+    border-color: #ebebeb !important;
+    font-size:medium !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+.btn-primary:hover {
+  border-color: #d1d4d4 !important;
 }
+.btn-primary:active {
+  box-shadow: 0 0 0 3px #b2f0eb !important;
+  border-color: #00ccbc !important;
+}
+
+.font-awesome {
+  color: #00ccbc !important;
+}
+
+/* navbar */
+
+.navbar {
+  border-bottom: solid #ebebeb;
+  position:absolute;
+  width:100%;
+}
+
+
+.container-top {
+  padding-left:30px !important;
+}
+
+
+.nav-row {
+  width:100%;
+}
+
+.me-2 {
+  border-color: #ebebeb !important;
+  color:#abadad !important;
+}
+
+.me-2:focus {
+  border-color:black !important;
+  border-width: 2px;
+  box-shadow: 0 0 0 0 #b2f0eb !important;
+}
+
+
+
+

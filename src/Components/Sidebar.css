@@ -1,0 +1,115 @@
+.sidecontainer {
+    width:240px;
+    margin-top:80px;
+    float:left;
+    position:abolute;
+    top:0px;
+    left:0px;
+    margin-top:0px;
+    vertical-align: top;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.side-top {
+    width:200px;
+    height:70px;
+    border-bottom:#eaeaea solid 1px;
+}
+
+#side-delivery {
+    padding-top:20px;
+    padding-left:20px;
+    padding-bottom:15px;
+    border-bottom:#eaeaea solid 1px;
+}
+
+.side-scroll {
+    width:200px;
+}
+
+#st-left {
+    float:left;
+}
+
+#st-middle {
+    float:left;
+}
+
+#st-right {
+    float:right;
+    padding-top:24px;
+}
+
+#st-now {
+    color:#4c5961;
+    font-size:13px;
+}
+
+#st-location {
+    color:black;
+    font-weight: bold;
+    font-size:16px;
+}
+
+#st-change {
+    color:#00ccbc;
+    font-size:13px;
+}
+
+.btn-dropdown-side {
+    border-color: #ffffff !important;
+}
+/* side menu drop down buttons */
+.btn-secondary, .btn-seconday:active, .btn-secondary:visited {
+    color: black !important;
+    background-color: white !important;
+    border-color: white !important;
+}
+
+.btn-secondary:hover {
+  border-color: #ffffff !important;
+}
+.btn-secondary:active {
+  border-color: #ffffff !important;
+}
+
+.dropdown-menu {
+    --bs-dropdown-border-color: #ffffff !important;
+}
+
+/* change colour of selected radio and check boxes*/
+.form-check-input:checked {
+    background-color: #00ccbc !important; 
+    border-color:#00ccbc !important; 
+}
+
+.form-check-label {
+    font-size: 13px;
+}
+
+/* accordion */
+.accordion {
+    --bs-accordion-border-color:#ffffff !important;
+    --bs-accordion-btn-focus-border-color: #ffffff !important;
+}
+
+.accordion-header {
+    font-weight: bold !important;
+    border-bottom:#eaeaea solid 1px !important;
+}
+
+.accordion-button:not(.collapsed) {
+    color:black !important;
+    background-color:white !important;
+}
+
+.accordion-button:focus {
+    border-color: #ffffff !important;
+    border-width: 1px !important;
+}
+
+.accordion-button {
+    font-weight:bold;
+    font-size:14px;
+}

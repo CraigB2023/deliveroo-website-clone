@@ -1,0 +1,38 @@
+.containerpage {
+    position:relative;
+    width:100%;
+    padding-top:80px;
+}
+
+/* Elements above product list  */
+
+.delivery-area {
+    font-size: 18px;
+    font-weight:bold;
+  }
+  
+  .btn-sort, .btn-sort:active, .btn-sort:visited {
+    color:white !important;
+    background-color: #00ccbb !important;
+    border-color: #00ccbb !important;
+    font-size: 13px !important;
+  }
+  
+  .bg-primary {
+    background-color: #00ccbb !important;
+    font-weight:normal !important;
+  }
+  
+  .btn-close {
+    font-size:13px !important;
+    color:white !important;
+    width:8px !important;
+    height:8px !important;
+    margin-left:5px;
+  }
+  
+  .count-restaurants {
+    font-size:13px;
+    color:#5e5d6b;
+  }
+  
